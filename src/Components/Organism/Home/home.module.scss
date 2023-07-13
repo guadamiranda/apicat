@@ -1,0 +1,16 @@
+
+.homePageContainer{
+    background-color: #fffeff;
+    display: flex;
+    height: 97%;
+    justify-content: center;
+    width: 97%;
+
+    &__leftSide{
+        width: 35%;
+    }
+
+    &__rightSide{
+        width: 65%;
+    }
+}

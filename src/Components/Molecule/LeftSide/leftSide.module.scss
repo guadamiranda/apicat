@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'Ysabeau';
+    src: local('Ysabeau'), url('../../../Assets/Ysabeau/YsabeauOffice-Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: local('Caveat'), url('../../../Assets/Caveat/Caveat-Medium.ttf') format('woff');
+}
+
+.leftSideComponent{
+    background-color: #fffeff;
+    border-radius: 14px 0px 0px 14px;
+    font-family: Ysabeau;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+
+    &__italic{
+        color: #eec7ce;
+        font-family: 'Caveat', cursive;
+        font-size: 45px;
+    }
+
+    &__logo{
+        align-items: center;
+        color: #fdbcc8;
+        display: flex;
+        font-family: 'Ysabeau';
+        font-size: 18px;
+        height: 5%;
+        
+        span{
+            margin-left: 5px;
+        }
+    }
+
+    &__body{
+        display: flex;
+        flex-direction: column;
+        height: 95%;       
+        justify-content: center;
+    }
+}

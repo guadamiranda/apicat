@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200&display=swap");
+
+.buttonContainer{
+    align-items: center;
+    animation: AnimationName 3s ease infinite;
+    display: flex;
+    background: linear-gradient(273deg, #ffd3d7, #ffd7c1);
+    background-size: 400% 400%;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 20px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 10px;
+    width: 170px;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
