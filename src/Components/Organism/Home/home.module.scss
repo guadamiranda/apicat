@@ -14,3 +14,24 @@
         width: 65%;
     }
 }
+
+@media(max-width: 700px) {
+    .homePageContainer{
+        background-color: #fffeff;
+        display: flex;
+        flex-direction: column;
+        height: 97%;
+        justify-content: center;
+        width: 97%;
+    
+        &__leftSide{
+            height: 35%;
+            width: 100%;
+        }
+    
+        &__rightSide{
+            height: 65%;
+            width: 100%;
+        }
+    }  
+}
