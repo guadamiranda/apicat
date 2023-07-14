@@ -7,7 +7,6 @@ import { useEffect, useState } from 'react'
 
 const HomePage = () => {
     const [michiPicture, setMichiPicture] = useState()
-    console.log(michiPicture)
 
     const axios = require('axios');
 
