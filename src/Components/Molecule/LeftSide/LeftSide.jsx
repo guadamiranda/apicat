@@ -14,7 +14,7 @@ const LeftSide = ({setMichiPhotoFunction}) => {
                     <div className={style.leftSideComponent__text}>
                         <div><span className={style.leftSideComponent__italic}>Explora</span> una gran cantidad de imágenes de <span className={style.leftSideComponent__italic}>michis._</span></div>
                     </div>
-                    <div>
+                    <div className={style.leftSideComponent__button}>
                         <Button onClickFunction={setMichiPhotoFunction}/>
                     </div>
                 </div>
