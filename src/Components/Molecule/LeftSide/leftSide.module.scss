@@ -40,6 +40,38 @@
         display: flex;
         flex-direction: column;
         height: 95%;       
+    }
+
+    &__textAndButton{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        height: 55%;
+        justify-content: flex-end;
+    }
+    
+    &__details{
+        align-items: flex-end;
+        display: flex;
+        height: 45%;
+    }
+
+    &__squareOrange, &__squarePink{
+        align-items: center;
+        border-radius: 8px;
+        color: white;
+        display: flex;
+        height: 50px;
         justify-content: center;
+        margin-right: 15px;
+        width: 50px;
+    }
+
+    &__squarePink{   
+        background-color: #ffd3d7;
+    }
+
+    &__squareOrange{
+        background-color: #ffd7c1;
     }
 }
